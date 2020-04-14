@@ -26,7 +26,6 @@ app.use(express.static(publicDirectoryPath))
 //     })
 // })
 app.get('',(req, res) =>{
-
     if(!req.query.adress){
         return res.render('index',{ title: 'Weather', name:"Valdecir Bornatto",
                 location:"You must provide some search term", forecast:""} )
