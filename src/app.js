@@ -54,14 +54,14 @@ app.get('',(req, res) =>{
 
 
 app.get('/about',(req, res)=>{
-   res.render('About',{
+   res.render('about',{
        title: 'About',
        name: 'Valdecir Bornatto'
    })
 })
 
 app.get('/help',(req, res) =>{
-    res.render('Help',{
+    res.render('help',{
         title: 'Help',
         message: 'To be safe during this particular period just stay home',
         name: 'Valdecir Bornatto'
